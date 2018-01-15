@@ -1,0 +1,16 @@
+package com.javainterface.ignacio;
+
+public class Dog implements Mammal {
+
+	
+	public void speak() {
+		System.out.println("Bark!");
+	
+	}
+	
+	public void run( ) {
+		System.out.println("Dogs can run at a top speed of 45 mph!");
+			
+		}
+	
+}

@@ -7,14 +7,17 @@ public class Startup {
 		Mammal dog = new Dog();
 		dog.speak();
 		dog.run();
+		dog.eat();
 		
 		Mammal cat = new Cat();
 		cat.speak();
 		cat.run();
+		cat.eat();
 	
 		Mammal cow = new Cow();
 		cow.speak();
 		cow.run();
+		cow.eat();
 	}
 
 }

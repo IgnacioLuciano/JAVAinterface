@@ -13,5 +13,11 @@ public class Cat implements Mammal {
 		System.out.println("Cats can run at a top speed of 30 mph!");
 			
 		}
+
+
+	public void eat() {
+		System.out.println("Cats eat mice.");
+		
+	}
 	
 }

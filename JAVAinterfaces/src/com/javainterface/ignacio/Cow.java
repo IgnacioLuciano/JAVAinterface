@@ -13,5 +13,10 @@ public class Cow implements Mammal {
 		System.out.println("Cows can run at a top speed of 25 mph!");
 			
 		}
+
+	public void eat() {
+		System.out.println("Cows eat grass.");
+		
+	}
 	
 }

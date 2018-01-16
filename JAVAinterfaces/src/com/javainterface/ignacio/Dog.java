@@ -12,5 +12,11 @@ public class Dog implements Mammal {
 		System.out.println("Dogs can run at a top speed of 45 mph!");
 			
 		}
+
+
+	public void eat() {
+		System.out.println( "Dogs eat bones.");
+		
+	}
 	
 }

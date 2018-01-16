@@ -1,9 +1,9 @@
 package com.javainterface.ignacio;
 
-public interface Mammal {
+public interface Mammal extends Animal{
 	
-	public void speak();
-	public void run();
+	void speak();
+	void run();
 
 }
 	

@@ -18,6 +18,8 @@ public class Startup {
 		cow.speak();
 		cow.run();
 		cow.eat();
+		
+		
 	}
 
 }

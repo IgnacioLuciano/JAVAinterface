@@ -19,7 +19,13 @@ public class Startup {
 		cow.run();
 		cow.eat();
 		
+		Reptile turtle = new Turtle();
+		turtle.eat();
+		turtle.crawl();
 		
+		Reptile lizard = new Lizard();
+		lizard.eat();
+		lizard.crawl();
 	}
 
 }

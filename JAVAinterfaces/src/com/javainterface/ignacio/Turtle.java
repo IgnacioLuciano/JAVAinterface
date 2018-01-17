@@ -8,7 +8,9 @@ public class Turtle implements Reptile{
 	
 		
 	}
-	public void crawl() {
-		System.out.println("string.");
+	public float crawl() {
+		System.out.println("Turtles crawl at" + " " + 2.5 + "MPH");
+		return 0;
+		
 }
 }

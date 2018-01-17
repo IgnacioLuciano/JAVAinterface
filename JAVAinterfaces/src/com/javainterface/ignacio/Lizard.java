@@ -9,8 +9,9 @@ public class Lizard implements Reptile{
 			
 	}
 	
-	public void crawl() {
-		System.out.println("mph");
+	public float crawl() {
+		System.out.println("Lizards crawl at" + " " + 21 + "MPH");
+		return 0;
 	}
 
 }
